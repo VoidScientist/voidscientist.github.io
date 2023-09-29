@@ -47,7 +47,6 @@ a:hover {
 
 .navbar li:hover {
     background-color: #ccc;
-    padding-inline: 1.2em;
 }
 
 .showcase {
@@ -97,8 +96,15 @@ a:hover {
     height: 80px;
 }
 
-@media (min-width: 1250px) {
+@media (min-width: 720px) {
     .showcase {
         padding: 12.5% 0;
+    }
+}
+
+@media (max-width: 720px) {
+    .navbar li {
+        margin-inline: 0.9em;
+        padding-inline: 0.5em;
     }
 }
