@@ -1,0 +1,50 @@
+.container {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 2vh;
+    gap: 3.5vh;
+
+    background-color: var(--border-color);
+    border-bottom: solid var(--font-color) 2px;
+
+}
+
+.linkContainer {
+
+    display: flex;
+    flex-direction: row;
+    gap: 2.5vw;
+
+}
+
+a {
+
+    color: var(--font-color);
+    text-decoration: none;
+
+}
+
+.navbarTitle {
+
+    margin: 0;
+    font-size: 2em;
+
+}
+
+.navlink {
+
+    font-size: 1.2em;
+    height: 1.4rem;
+    box-sizing: border-box;
+
+}
+
+.navlink:hover {
+
+    color: var(--font-highlight);
+    border-bottom: solid var(--font-highlight) 2px;
+
+}
