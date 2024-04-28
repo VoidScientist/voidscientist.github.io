@@ -14,4 +14,14 @@ body, html {
   background-color: var(--bg-color);
   color: var(--font-color);
 
+  font-family: Consolas, Arial, Helvetica, sans-serif;
+
+}
+
+b {
+
+  background-color: var(--bold-background);
+  color: var(--font-highlight);
+  border-radius: 5px;
+
 }

@@ -4,7 +4,7 @@ function Navbar() {
 
     return (
         <div className={styles.container}>
-            <a href="" className={styles.navbarTitle}>Void's World</a>
+            <a href="" className={styles.navbarTitle}>VoidScientist</a>
             <nav className={styles.linkContainer}>
                 <a href="" className={styles.navlink}>About Me</a>
                 <a href="" className={styles.navlink}>Devlogs</a>

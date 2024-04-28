@@ -1,0 +1,48 @@
+.container {
+
+    margin: auto;
+    margin-top: 3vmin;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    max-width: 80vw;
+
+}
+
+.card {
+
+    max-width: 40vw;
+
+}
+
+.imgContainer {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.pImg {
+
+    border-radius: 50px;
+    max-height: 40vmin;
+
+}
+
+.pImgLink {
+
+    filter: none;
+    transform: none;
+    transition: filter 0.5s ease, transform 0.5s ease;
+    border: 2px var(--font-highlight) solid;
+    
+
+}
+
+.pImgLink:hover {
+
+    transform: scale(1.05,1.05);
+    filter: drop-shadow(0px 0px 20px var(--font-highlight))
+
+}
